@@ -39,4 +39,36 @@ print(str.replace("Hello","Hi"))
 str = "            Hello World       "
 print(str.strip())  # 양쪽의 공백을 제거
 
+# 대문자 변환 upper()
+a = "abcd"
+print(a.upper())
 
+# 소문자 변환 lower()
+a = "ABCD"
+print(a.lower())
+
+
+a = "aaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbcccccccccccccccccdddddddddd"
+# count() : 특정 문자열의 갯수를 리턴
+print(a.count('a'))
+
+# len() : 문자열의 길이
+print(len(a))
+
+# isalpha() : 알파벳이면 True, 다른 문자(숫자 등)가 섞이면 False
+print(a.isalpha())
+
+a = '1234'
+# isdecimal() : 10진수인지 판단
+print(a.isdecimal())
+# isdigit() : 아라비아숫자인지 판단
+print(a.isdigit())
+# isnumeric() : 숫자(아라비아, 로마 등)인지 판단
+print(a.isnumeric())
+
+
+a = 'abcd'
+print(type(a))
+# str 클래스의 모든 메소드 출력
+# print(dir(str))
+# print(dir(float))
